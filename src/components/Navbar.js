@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import Vector0 from '../assets/Vector.svg';
-import Vector1 from '../assets/Vector (1).png';
-import Vector2 from '../assets/Vector (2).png';
-import Vector3 from '../assets/Vector (3).png';
-import {motion} from 'framer-motion';
+import Vector1 from '../assets/Vector (1).svg';
+import Vector2 from '../assets/Vector (2).svg';
+import Vector3 from '../assets/Vector (3).svg';
 
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('#home')
 
   return (
-    <motion.div className=' fixed w-full text-center flex items-center justify-center'>
-      <div className=' mx-auto md:max-w-xl flex justify-center items-center  space-x-14  w-full px-4 cursor-pointer h-12 my-4 md:space-x-20 lg:mx-[400px]  ' id="navbar">
-        <Link href="#home" src={Vector0} active={activeLink} onClick={setActiveLink} className="link" />
+    <div className='fixed justify-center items-center flex top-3 z-50'>
+      <div className='flex justify-center items-center space-x-[30px] pl-5 pr-5 cursor-pointer h-12 md:space-x-20 lg:mx-[400px]' id="navbar">
+        <Link href="#home" src={Vector0} active={activeLink} onClick={setActiveLink} />
         <Link href="#autoras" src={Vector1} active={activeLink} onClick={setActiveLink} />
         <Link href="#parceiros" src={Vector2} active={activeLink} onClick={setActiveLink} />
         <Link href="#patrocinador" src={Vector3} active={activeLink} onClick={setActiveLink} />
       </div>
-    </motion.div>
+    </div>
   )
-}
+} 
 
 export default Navbar;
 
