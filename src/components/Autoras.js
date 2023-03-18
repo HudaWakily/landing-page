@@ -31,7 +31,7 @@ function Autoras() {
         <p className='text-center text-[14px] text-white mx-[60px] mt-3 lg:text-left w-[70%] lg:w-[60%]'>Contar histórias é provavelmente a mais poderosa ferramenta pedagógica. Contar para os outros as histórias do que aconteceu com essas mulheres refugiadas  e como elas se integraram em um novo país, no caso o Brasil, pode provocar nas pessoas um sentimento de solidariedade e de entendimento da importância de receber bem os refugiados.</p>
       </div>
       <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
-        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal4 open={openModal4} onClose={() => setOpenModal4(false)} />
           <img src={image87} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
@@ -46,7 +46,7 @@ function Autoras() {
           </div>
         </div>
 
-        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full'>
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
           <img src={image86} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
@@ -62,7 +62,7 @@ function Autoras() {
         </div>
 
 
-        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal5 open={openModal5} onClose={() => setOpenModal5(false)} />
           <img src={image89} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
@@ -77,7 +77,7 @@ function Autoras() {
           </div>
         </div>
 
-        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal6 open={openModal6} onClose={() => setOpenModal6(false)} />
           <img src={image88} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
