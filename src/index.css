@@ -59,36 +59,6 @@ p {
     width: 200px;
 }
 
-.bg-image {
-    background-image: url(./assets/image\ 87.png);
-    background-repeat: no-repeat;
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-}
-
-.bg-image1 {
-    background-image: url(./assets/image\ 86.png);
-    background-repeat: no-repeat;
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-
-}
-
-.bg-image2 {
-    background-image: url(./assets/image\ 89.png);
-    background-repeat: no-repeat;
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-
-}
-
-.bg-image3 {
-    background-image: url(./assets/image\ 88.png);
-    background-repeat: no-repeat;
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-
-}
 
 .btn1 {
     background: rgba(0, 0, 0, 0.2);
@@ -96,7 +66,7 @@ p {
     backdrop-filter: blur(5px);
 }
 
-.overlay {
+.over {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     width: 100%;
@@ -174,20 +144,74 @@ span {
 }
 
 
-.bg {
 
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
 
-}
-
-@media (max-width:500px){
-    .bg1{
-        overflow-x: scroll;
+@media (max-width:500px) {
+    .big-containe{
+        overflow-x:scroll;
+        width: 100vw;
+       
     }
-   
-    
+      
+}  
+
+
+.containe{
+    position: relative;
+    min-width: 250px;
 }
+
+
+
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px #00000040;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    top:100%;
+    width: 250px;
+    height: 0;
+    transition: .5s ease;
+}
+
+.containe:hover .overlay{
+    top: 0;
+    height: 100%;
+}
+.text{
+    justify-content:center;
+    color:white;
+    font-size: 12px;
+    width: 90%;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.tex{
+
+    transform: translateY(-70px);
+    margin-left: 20px;
+    font-size: 18px;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
 
 
