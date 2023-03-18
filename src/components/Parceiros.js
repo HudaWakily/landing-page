@@ -13,15 +13,17 @@ function Parceiros() {
   const [openModal, setOpenModal] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
   return (
-    <section className='flex flex-col justify-center items-center'>
-      <div className=' flex flex-col justify-center items-center mt-[140px] lg:mt-[150px] '>
-        <img src={Rectangle8} className=' mr-[200px] w-[70px] lg:w-[120px]' />
-        <h1 className=' text-white text-4xl lg:text-5xl'>PARCEIROS</h1>
-        <img src={Rectangle9} className='ml-[200px] w-[70px] lg:w-[120px]' />
-        <p className=' text-center text-white mt-[40px] font-bold lg:mx-[250px] '><var className=' font-thin'>O projeto</var> O Instituto Estou Refugiado<br />
-          Estou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras, Luciana Capobianco e Gisela Rao, tinham a convicção de que a questão do refO Instituto Estou <br /> Refugiado<br />
-          Estou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras, Luciana Capobianco e Gisela Rao, tinham a convicção de que a questão do ref: a participação do IEDI xxxxxxx</p>
-        <div className='flex flex-row gap-[80px] lg:mt-[60px]'>
+    <section className='flex flex-col justify-center items-center lg:h-screen h-[100vh] pt-[120px]'>
+      <div className=' flex flex-col justify-center items-center'>
+        <img src={Rectangle8} className=' mr-[200px] w-[50px] lg:w-[80px]' />
+        <h1 className=' text-white text-2xl lg:text-3xl'>PARCEIROS</h1>
+        <img src={Rectangle9} className='ml-[200px] w-[50px] lg:w-[80px]' />
+        <p className=' text-center text-white mt-[40px] lg:mx-[250px] text-[11px] lg:text-[14px] lg:w-[50%] w-[80%] '>O Istituto Europeo di Design - IED/São Paulo faz parte de uma rede internacional que une educação, design, moda e comunicação, e contribui ativamente com a formação de profissionais capazes de navegar pelos desafios do presente, sempre com o olhar no futuro. Não é surpreendente, portanto, que um grupo de seus alunos, orientado pelo professor Fabio Silveira, tenha se apaixonado por este primeiro livro da Coleção Estou Refugiado e resolvido desenvolver um tratamento visual capaz de traduzir toda a emoção contida nas histórias reais e impactantes das personagens, mulheres fortes, decididas e em situação de refúgio. <br />
+          Ao longo de três meses, o time de design realizou encontros semanais para compreender o tema, pesquisar e discutir caminhos visuais para o projeto. Juntos, seus integrantes buscaram explorar alternativas no campo do layout das páginas, ilustração, tipografia e acabamentos gráficos. O resultado surpreende e dialoga com os textos de realização e superação.
+          Equipe de design – IED. Coordenação do projeto: Eliane Weizmann. Professor Orientador
+          e Direção de Arte: Fabio Silveira. Time de Design: Beatriz Unzelte, Bruna Piteri, Gabriela Michelin, Manuela Pellegrini, Milena Yuki Watanabe, Renan Corazza
+        </p>
+        <div className='flex flex-row gap-[80px] lg:mt-[10px]'>
 
           <motion.img src={image5}
             onClick={() => {
