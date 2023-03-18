@@ -1,93 +1,104 @@
 import React, { useState } from 'react';
 import Rectangle8 from '../assets/Rectangle 8.svg';
 import Rectangle9 from '../assets/Rectangle 9.svg';
-import { useRef, useEffect } from 'react';
 import Modal3 from '../components/Modal3';
-import { motion } from 'framer-motion'
+import image86 from '../assets/image 86.png';
+import image87 from '../assets/image 87.png';
+import image88 from '../assets/image 88.png';
+import image89 from '../assets/image 89.png';
+import Modal6 from '../components/Modal6';
+import Modal4 from '../components/Modal4';
+import Modal5 from '../components/Modal5';
+import '../index.css'
 
 
 
-
-const items = [
-  {
-    title: 'UCRANIA',
-    name: 'NATALIA',
-    background: 'bg-image',
-  },
-  {
-    title: 'AFEGNISTAO',
-    name: 'MAHBOBA',
-    background: 'bg-image1',
-  },
-  {
-    title: 'VENEZUELA',
-    name: 'FRANCIS',
-    background: 'bg-image2',
-  },
-  {
-    title: 'MOCAMBIQUE',
-    name: 'LARA',
-    background: 'bg-image3',
-  },
-]
 
 function Autoras() {
-  const [width, setWidth] = useState(0);
-  const carousel = useRef();
+  const [openModal3, setOpenModal3] = useState(false);
+  const [openModal4, setOpenModal4] = useState(false);
+  const [openModal5, setOpenModal5] = useState(false);
+  const [openModal6, setOpenModal6] = useState(false);
+  const [hover, setHover] = useState(false);
 
-  useEffect(() => {
-    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
 
-  }, []);
   return (
-    <motion.section ref={carousel} className='flex flex-col justify-center items-center'>
+    <section className='flex flex-col justify-center items-center lg:h-screen pt-[10px]'>
       <div className='flex flex-col justify-center items-center mt-[90px] '>
-        <img src={Rectangle8} className=' mr-[190px] w-[70px] lg:w-[120px]' />
-        <h1 className=' text-white text-4xl autoras lg:text-5xl'>AUTORAS</h1>
-        <img src={Rectangle9} className='ml-[190px] w-[70px] lg:w-[120px]' />
-        <p className=' text-center text-white mx-[60px] mt-3 lg:text-left '>ank has gone up by 32,167 positions since 3 months ago. Loremipsum.ir has an estimated worth of US$ 199,103, based on its estimated Ads revenue. Loremipsum.ir receives approximat. Its web server is located in Chicago, Illinois, United States</p>
+        <img src={Rectangle8} className=' mr-[150px] w-[50px] lg:w-[80px]' />
+        <h1 className=' text-white text-2xl autoras lg:text-3xl'>AUTORAS</h1>
+        <img src={Rectangle9} className='ml-[150px] w-[50px] lg:w-[80px]' />
+        <p className='text-center text-[14px] text-white mx-[60px] mt-3 lg:text-left w-[70%] lg:w-[60%]'>Contar histórias é provavelmente a mais poderosa ferramenta pedagógica. Contar para os outros as histórias do que aconteceu com essas mulheres refugiadas  e como elas se integraram em um novo país, no caso o Brasil, pode provocar nas pessoas um sentimento de solidariedade e de entendimento da importância de receber bem os refugiados.</p>
+      </div>
+      <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+          <Modal4 open={openModal4} onClose={() => setOpenModal4(false)} />
+          <img src={image87} className='w-[250px] h-[300px]'/>
+          <div className=' absolute tex'>
+            <h1 className='text-white'>UCRANIA</h1>
+            <h1 className='text-[#2378dc]'>NATALIA</h1>
+          </div>
+          <div className='w-[200px] h-[200px] overlay'>
+            <h1 className=' text-white ml-5 mt-5'>UCRANIA</h1>
+            <h1 className='text-[#2378dc] ml-5'>NATALIA</h1>
+            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal4(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+
+          </div>
+        </div>
+
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full'>
+          <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
+          <img src={image86} className='w-[250px] h-[300px]'/>
+          <div className=' absolute tex'>
+            <h1 className='text-white'>AFEGNISTAO</h1>
+            <h1 className='text-[#2378dc]'>MAHBOBA</h1>
+          </div>
+          <div className='w-[200px] h-[200px] overlay'>
+            <h1 className=' text-white ml-5 mt-5'>AFEGNISTAO</h1>
+            <h1 className='text-[#2378dc] ml-5'>MAHBOBA</h1>
+            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+
+          </div>
+        </div>
+
+
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+          <Modal5 open={openModal5} onClose={() => setOpenModal5(false)} />
+          <img src={image89} className='w-[250px] h-[300px]' />
+          <div className=' absolute tex'>
+            <h1 className='text-white'>VENEZUELA</h1>
+            <h1 className='text-[#2378dc]'>FRANCIS</h1>
+          </div>
+          <div className='w-[200px] h-[200px] overlay'>
+            <h1 className=' text-white ml-5 mt-5'>VENEZUELA</h1>
+            <h1 className='text-[#2378dc] ml-5'>FRANCIS</h1>
+            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal5(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+
+          </div>
+        </div>
+
+        <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full '>
+          <Modal6 open={openModal6} onClose={() => setOpenModal6(false)} />
+          <img src={image88} className='w-[250px] h-[300px]' />
+          <div className=' absolute tex'>
+            <h1 className='text-white'>MOCAMBIQUE</h1>
+            <h1 className='text-[#2378dc]'>LARA</h1>
+          </div>
+          <div className='w-[200px] h-[200px] overlay'>
+            <h1 className=' text-white ml-5 mt-5'>MOCAMBIQUE</h1>
+            <h1 className='text-[#2378dc] ml-5'>LARA</h1>
+            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+
+          </div>
+        </div>
+
+
       </div>
 
-      <motion.div drag="x" dragConstraints={{ right: 110, left: -width }} className='flex justify-center items-center mt-1 gap-6'>
-        {items.map((item, index) => <ImageHolder {...item} key={index} />)}
-      </motion.div>
-    </motion.section>
+    </section>
   )
 }
 
 export default Autoras;
 
-
-function ImageHolder({ background = '', title = "MOCAMBIQUE", name = "LARA" }) {
-  const [hover, setHover] = useState(false);
-  const [openModal3, setOpenModal3] = useState(false);
-
-  return <div
-
-    onMouseEnter={() => setHover(true)}
-    onMouseLeave={() => setHover(false)}
-    className={`w-[230px] h-[290px] relative mt-2 bg-cover bottom-0 left-0 right-0 lg:mt-[50px]  bg1 ${background}`}>
-    {hover && <motion.div
-      initial={{
-        opacity: 0
-
-      }}
-
-      animate={{
-        opacity: 1,
-        transition: {
-          duration: 0.3
-        }
-
-      }} className='w-full h-[100%] text-white break-words absolute text-justify pt-[40px] pl-3 pr-5 text-[14px] right-0 bg'>
-      <h1 className=' text-white italic text-2xl'>{title}</h1>
-      <h2 className='text-[#2378dc] text-[20px]'>{name}</h2>
-      <p>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref... {<a onClick={() => {
-        setOpenModal3(true)
-      }} className='cursor-pointer'>saiba mais</a>}</p></motion.div>}
-    <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
-    <h1 className=' text-left text-white uppercase italic mt-[220px] ml-3'>{title}</h1>
-    <h2 className=' text-[#2378dc] ml-4 uppercase'>{name}</h2>
-
-  </div>
-}    
+   
