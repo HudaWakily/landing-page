@@ -20,13 +20,11 @@ function Modal3({ open, onClose }) {
           }
 
         }}
-        onClick={onClose} className='overlay '>
+        onClick={onClose} className='over '>
         <div className=' w-[450px] h-[540px] mt-[-30px] lg:w-[700px] modalContainer '>
           <button onClick={onClose} className="text-white pl-3 font-bold">x</button>
           <div className=' flex flex-col justify-center items-center'>
-            <p className=' text-white text-[15px] p-[60px] text-center lg:pt-[100px]'>O Instituto Estou Refugiado
-              Estou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras, Luciana Capobianco e Gisela Rao, tinham a convicção de que a questão do refúgio estava envolta em uma densa nuvem de desinformação e preconceito. Era preciso tomar uma atitude para mudar esse cenário, dando voz, visibilidade e dignidade a esses seres humanos que precisam muito do nosso apoio e da nossa compreensão.
-              Em março de 2019, o Instituto Estou Refugiado” recebeu reconhecimento formal do governo brasileiro, tornando-se uma Organização Não Governamental. Com a colaboração de voluntários, profissionais de Recursos Humanos, psicólogos, comunicadores e com direção de Luciana M G Capobianco, a ONG tem como um dos seus focos principais a inserção de refugiados no mercado de trabalho.</p>
+            <p className=' text-white p-[60px] text-center lg:pt-[100px] text-[11px]'>é uma fotógrafa profissional e escritora afegã. Ela faz parte de um grupo de nove afegãos que estão refugiados no Brasil atualmente. Dos nove, oito são fotógrafos e o nono é o marido de Mahboba, Abdullah Ramesh. O grupo se conheceu em um programa de treinamento promovido pela agência ITC em parceria com a ACNUR que teve a duração de três anos. Além do amor pela fotografia, eles têm em comum o fato de serem todos jovens – nenhum tem mais de 25 anos – e pertencerem a uma minoria étnica, a comunidade xiita Hazara, perseguida pelo Talibã e pelo Estado Islâmico Korashan (ISIS-K), que vê os xiitas como heréticos. Some-se a isso o fato de fotógrafos e jornalistas serem rotulados como terroristas no Afeganistão e 6 pessoas do grupo serem mulheres, alvo de uma misoginia que se torna a cada dia mais violenta, e perceberemos como a presença deles no seu país de origem significava risco iminente de vida. Uma grande mobilização internacional foi criada para retirar o grupo do Afeganistão. A iniciativa foi liderada por Sabrina Herzog, da ITC, e contou com o apoio de instituições renomadas como a ERE Foundation (Alemanha), Compassiva (Brasil) e Estou Refugiado, e dos renomados fotógrafos Farzana Wahidy, Jamie Hawkesworth, Elaine Constantine e Stefan Dotter. O Brasil foi o país que manifestou interesse em receber o grupo, graças principalmente ao esforço da Cônsul-Geral do Brasil em Genebra, Sra. Susan Kleebank.</p>
 
           </div>
 
