@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className='fixed justify-center items-center flex top-3 z-50 '>
-      <div className='flex justify-center items-center space-x-[30px] pl-5 w-full pr-5 cursor-pointer h-12 md:space-x-20 lg:mx-[400px]' id="navbar">
+      <div className='flex justify-center items-center space-x-[30px] pl-5 md:w-screen w-full lg:w-full pr-5 cursor-pointer h-12 md:space-x-20 lg:mx-[400px]' id="navbar">
         <Link href="#home" src={Vector0} active={activeLink} onClick={setActiveLink} />
         <Link href="#autoras" src={Vector1} active={activeLink} onClick={setActiveLink} />
         <Link href="#parceiros" src={Vector2} active={activeLink} onClick={setActiveLink} />
