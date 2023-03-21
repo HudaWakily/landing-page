@@ -15,7 +15,8 @@ body {
 
 .landing-intro{
     background-image:url(./assets/image\ 90.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
@@ -191,8 +192,8 @@ span {
     overflow: hidden;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
 }
 
 .tex{

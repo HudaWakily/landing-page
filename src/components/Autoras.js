@@ -33,7 +33,7 @@ function Autoras() {
       <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal4 open={openModal4} onClose={() => setOpenModal4(false)} />
-          <img src={image87} className='w-[250px] h-[300px]'/>
+          <img src={natalia.jpg} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
             <h1 className='text-white'>UCRANIA</h1>
             <h1 className='text-[#2378dc]'>NATALIA</h1>
@@ -48,7 +48,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
-          <img src={image86} className='w-[250px] h-[300px]'/>
+          <img src={mahboba.jpg} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
             <h1 className='text-white'>AFEGNISTAO</h1>
             <h1 className='text-[#2378dc]'>MAHBOBA</h1>
@@ -64,7 +64,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal5 open={openModal5} onClose={() => setOpenModal5(false)} />
-          <img src={image89} className='w-[250px] h-[300px]' />
+          <img src={francis.jpg} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
             <h1 className='text-white'>VENEZUELA</h1>
             <h1 className='text-[#2378dc]'>FRANCIS</h1>
@@ -79,7 +79,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal6 open={openModal6} onClose={() => setOpenModal6(false)} />
-          <img src={image88} className='w-[250px] h-[300px]' />
+          <img src={lara.jpg} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
             <h1 className='text-white'>MOCAMBIQUE</h1>
             <h1 className='text-[#2378dc]'>LARA</h1>
