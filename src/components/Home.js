@@ -27,7 +27,7 @@ function Home() {
               <span className='ml-[100px] lg:ml-[150px]' >Я БЕЖЕНЦ</span>
             </h1>
           </div>
-
+          
           <p className=' w-[200px] lg:w-[430px] text-center text-[12px] lg:text-[14px] text-white md:text-right lg:text-right ml-[100px] mr-[100px]'>A Coleção Estou Refugiado nasceu para contar histórias sobre a luta, as dores e as alegrias das pessoas em situação de refúgio no Brasil. O objetivo é apresentar principalmente a crianças e adolescentes brasileiros – a distribuição dos livros da Coleção privilegia alunos de escolas públicas e privadas – a realidade dessas pessoas que vieram para o nosso país em busca de mais qualidade de vida, mais liberdade, e dignidade.<br /><br />Para o primeiro livro da Coleção, foram escolhidas histórias de refugiadas.</p>
          
           <div className=' flex flex-row gap-20 mt-[100px]'>
