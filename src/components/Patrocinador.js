@@ -15,10 +15,7 @@ function Patrocinador() {
 
         <div className='lg:flex flex-row mt-10 gap-[100px] lg:ml-[150px]  '>
           <img src={Ellipse2} className='lg:ml-[150px] w-[100px]' />
-          <p className='text-[#fff] text-center lg:text-left w-[30%] lg:w-[440px] float-right text-[14px] pt-[20px] lg:pt-10'>Para que histórias como essas
-           sejam conhecidas é preciso que empresas apoiem essa
-           causa tão importante, a causa dos refugiados. E foi isso que a Eternit fez, ao patrocinar o primeiro livro da nossa coleção
-           .Empresas como a Eternit fazem toda diferença com gestos como esse.
+          <p className='text-[#fff] text-center lg:text-left w-[30%] lg:w-[440px] float-right text-[14px] pt-[20px] lg:pt-10'>Para que histórias como essas sejam conhecidas é preciso que empresas apoiem essa causa tão importante, a causa dos refugiados. E foi isso que a Eternit fez, ao patrocinar o primeiro livro da nossa coleção. Empresas como a Eternit fazem toda diferença com gestos como esse.
             Obrigado Eternit!</p>
         </div>
         <div className='flex flex-col justify-center items-center'>
