@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Rectangle8 from '../assets/Rectangle 8.svg';
 import Rectangle9 from '../assets/Rectangle 9.svg';
 import Modal3 from '../components/Modal3';
-import image86 from '../assets/image 86.png';
-import image87 from '../assets/image 87.png';
-import image88 from '../assets/image 88.png';
-import image89 from '../assets/image 89.png';
+import natalia from '../assets/natalia.jpg';
+import mahboba from '../assets/mahboba.jpg';
+import lara from '../assets/lara.jpg';
+import francis from '../assets/francis.jpg';
 import Modal6 from '../components/Modal6';
 import Modal4 from '../components/Modal4';
 import Modal5 from '../components/Modal5';
@@ -33,7 +33,7 @@ function Autoras() {
       <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal4 open={openModal4} onClose={() => setOpenModal4(false)} />
-          <img src={natalia.jpg} className='w-[250px] h-[300px]'/>
+          <img src={natalia} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
             <h1 className='text-white'>UCRANIA</h1>
             <h1 className='text-[#2378dc]'>NATALIA</h1>
@@ -48,7 +48,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
-          <img src={mahboba.jpg} className='w-[250px] h-[300px]'/>
+          <img src={mahboba} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
             <h1 className='text-white'>AFEGNISTAO</h1>
             <h1 className='text-[#2378dc]'>MAHBOBA</h1>
@@ -64,7 +64,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
           <Modal5 open={openModal5} onClose={() => setOpenModal5(false)} />
-          <img src={francis.jpg} className='w-[250px] h-[300px]' />
+          <img src={francis} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
             <h1 className='text-white'>VENEZUELA</h1>
             <h1 className='text-[#2378dc]'>FRANCIS</h1>
@@ -79,7 +79,7 @@ function Autoras() {
 
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full'>
           <Modal6 open={openModal6} onClose={() => setOpenModal6(false)} />
-          <img src={lara.jpg} className='w-[250px] h-[300px]' />
+          <img src={lara} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
             <h1 className='text-white'>MOCAMBIQUE</h1>
             <h1 className='text-[#2378dc]'>LARA</h1>
