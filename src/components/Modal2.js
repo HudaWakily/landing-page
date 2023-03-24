@@ -22,7 +22,7 @@ function Modal2({ open, onClose }) {
 
         }}
         onClick={onClose} className='over '>
-        <div className=' w-[450px] h-[540px] mt-[-30px] lg:w-[700px] modalContainer '>
+        <div className=' w-[400px] h-[500px] mt-[-30px] lg:w-[700px] modalContainer '>
           <button onClick={onClose} className="text-white pl-3 font-bold">x</button>
           <div className=' flex flex-col justify-center items-center'>
             <img src={Art} style={{ width: 150 }} />
