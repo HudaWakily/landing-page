@@ -41,7 +41,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>UCRANIA</h1>
             <h1 className='text-[#2378dc] ml-5'>NATALIA</h1>
-            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal4(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>Natalia Moroz é ucraniana, formada em línguas pelo Instituto Pedagógico de Línguas Estrangeiros de Donbass. Ela chegou recentemente ao Brasil com seu filho,{<a onClick={() => { setOpenModal4(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
@@ -56,7 +56,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>AFEGNISTAO</h1>
             <h1 className='text-[#2378dc] ml-5'>MAHBOBA</h1>
-            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>é uma fotógrafa profissional e escritora afegã. Ela faz parte de um grupo de nove afegãos que estão refugiados no Brasil atualmente.{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
@@ -72,7 +72,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>VENEZUELA</h1>
             <h1 className='text-[#2378dc] ml-5'>FRANCIS</h1>
-            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal5(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>é venezuelana, formada no seu país de origem em Direito na Universidade Santa Maria e Administração no IUTA – PLC.{<a onClick={() => { setOpenModal5(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
@@ -87,7 +87,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>MOCAMBIQUE</h1>
             <h1 className='text-[#2378dc] ml-5'>LARA</h1>
-            <p className='text'>Instituto Estou RefugiadoEstou Refugiado nasceu como um movimento espontâneo da sociedade em 2015. Suas criadoras,Luciana Capobianco e Gisela Rao,tinham a convicção de que a questão do ref...{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'> é moçambicana. Veio para o Brasil, perseguindo um sonho de liberdade e respeito, fugindo da intolerância e da perseguição à comunidade LGBT em seu país.{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
