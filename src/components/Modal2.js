@@ -26,12 +26,10 @@ function Modal2({ open, onClose }) {
           <button onClick={onClose} className="text-white pl-3 font-bold">x</button>
           <div className=' flex flex-col justify-center items-center'>
             <img src={Art} style={{ width: 150 }} />
-            <p className=' text-white p-[30px] text-center pt-[0] lg:pt-[50px] text-[10px]'>O Istituto Europeo di Design foi fundado em 1966, na Itália, com a premissa de ser uma escola de Design inovadora.
-Para atingir esse objetivo, Francesco Morelli, idealizador e fundador do Instituto, desenhou um plano de ensino capaz de unir teoria e prática no dia a dia das atividades acadêmicas de seus estudantes a partir de um conjunto de valores que relacionam o saber, saber fazer e ser.
-Em nossos quase 60 anos de atividade, contribuímos ativamente para a formação de mais de 150 mil profissionais de cerca de 100 países, dedicados ao desenvolvimento cultural, criativo, e de habilidades críticas indispensáveis para a formação de profissionais aptos a navegar nos desafios do presente com o olhar no futuro.
-Como parte dos desafios de uma escola inovadora, desenvolvemos programas de estágio em parceria com grandes marcas de mercado; criamos a Comunidade Alumni para nossos ex-alunos, e estimulamos a possibilidade de experiências internacionais entre todas as sedes do IED. Os programas de intercâmbio e vivências internacionais integram competências interculturais ao aprendizado do aluno, incentivando uma perspectiva global de carreira e mercado, além de conectar o IED Brasil às nove sedes do Instituto na Europa.
-Hoje temos 12 sedes: na Itália, em Milão, Como, Roma, Florença, Veneza, Turim e Cagliari; na Espanha, Madri, Barcelona e Bilbao; e no Brasil, em São Paulo e Rio de Janeiro – onde contribuímos para difundir e fortalecer a cultura do Design desde 2005, promovendo atividades criativas com grandes marcas, aulas abertas com profissionais renomados e a participação em eventos importantes, como o DW! São Paulo Design Weekend, Italian Design Day e Fashion Revolution.</p>
-
+            <p className='  text-white p-[30px] text-center pt-[0] lg:pt-[50px] text-[14px]'>O Istituto Europeo di Design - IED/São Paulo e um  grupo de seus alunos, orientado pelo professor Fabio Silveira,
+             fez a concepção gráfica do livro, e contribui muito para o produto final do projeto. Ao longo de três meses, o time de alunos realizou encontros semanais para compreender o tema, pesquisar e discutir caminhos visuais para o projeto. Juntos, alunos e refugiados,
+               buscaram explorar alternativas no campo do layout das páginas, ilustração, tipografia e acabamentos gráficos.
+             O resultado surpreende e dialoga com os textos de realização e superação.</p>
           </div>
 
         </div>
