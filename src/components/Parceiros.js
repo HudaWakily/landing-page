@@ -25,7 +25,7 @@ function Parceiros() {
         </p>
         <div className='flex flex-row gap-[80px] lg:mt-[10px]'>
 
-          <motion.img src={image5}
+          <motion.img src={image5} width='90px' className='lg:w-[100px]'
             onClick={() => {
               setOpenModal(true)
             }} />
@@ -33,7 +33,7 @@ function Parceiros() {
           <Modal open={openModal} onClose={() => setOpenModal(false)} />
 
 
-          <img src={Art} style={{ width: 150 }} onClick={() => {
+          <img src={Art} width='90px' className='lg:w-[150px]' onClick={() => {
             setOpenModal2(true)
           }} />
 
