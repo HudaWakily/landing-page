@@ -56,8 +56,9 @@ p {
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     font-family: 'inter', sans-serif;
-    width: 200px;
 }
+
+
 
 
 .btn1 {
@@ -152,6 +153,11 @@ span {
         width: 100vw;
        
     }
+    .patricinador {
+        display: flex;
+        flex-direction: column;
+    }
+
       
 }  
 
@@ -205,6 +211,14 @@ span {
 
 }
 
+@media (max-width:500px) {
+    .modalContainer {
+        overflow-y:scroll;
+        width: 100vw;
+       
+    }
+      
+}
 
 
 

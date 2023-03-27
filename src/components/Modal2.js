@@ -25,7 +25,7 @@ function Modal2({ open, onClose }) {
         <div className=' w-[400px] h-[500px] mt-[-30px] lg:w-[700px] modalContainer '>
           <button onClick={onClose} className="text-white pl-3 font-bold">x</button>
           <div className=' flex flex-col justify-center items-center'>
-            <img src={Art} style={{ width: 150 }} />
+            <img src={Art} width='90px' />
             <p className=' text-white p-[30px] text-center pt-[0] lg:pt-[50px] text-[10px]'>O Istituto Europeo di Design foi fundado em 1966, na Itália, com a premissa de ser uma escola de Design inovadora.
 Para atingir esse objetivo, Francesco Morelli, idealizador e fundador do Instituto, desenhou um plano de ensino capaz de unir teoria e prática no dia a dia das atividades acadêmicas de seus estudantes a partir de um conjunto de valores que relacionam o saber, saber fazer e ser.
 Em nossos quase 60 anos de atividade, contribuímos ativamente para a formação de mais de 150 mil profissionais de cerca de 100 países, dedicados ao desenvolvimento cultural, criativo, e de habilidades críticas indispensáveis para a formação de profissionais aptos a navegar nos desafios do presente com o olhar no futuro.
