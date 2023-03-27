@@ -13,7 +13,7 @@ function Patrocinador() {
         <img src={Rectangle9} className='ml-[250px] w-[50px] lg:w-[80px] ' />
 
 
-        <div className='flex justify-center items-center lg:flex-row flex-col mt-10  '>
+        <div className='flex justify-center items-center lg:flex-row flex-col mt-10 patricinador '>
           <img src={Ellipse2} className='lg:ml-[150px] w-[100px]' />
           <p className='text-[#fff] text-center lg:text-left w-[30%] lg:w-[440px] float-right text-[14px] pt-[20px] lg:pt-10 lg:ml-[50px] '>Para que histórias como essas sejam conhecidas é preciso que empresas apoiem essa causa tão importante, a causa dos refugiados. E foi isso que a Eternit fez, ao patrocinar o primeiro livro da nossa coleção.Empresas como a Eternit fazem toda diferença com gestos como esse.
             Obrigado Eternit!</p>
